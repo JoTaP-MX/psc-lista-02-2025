@@ -11,10 +11,10 @@ public class ViagemEurotrip{
       System.out.println("Digite o preço da viagem para Portugal: ");
         double passagemPortugal = scanner.nextDouble();
       System.out.println("Escreva o número de pessoas que participarão para a viagem: ");
-        double passageiros = scanner.nextDouble();
-        double valortotal = (passageiros * ());
+        int passageiros = scanner.nextInt();
+        double valortotal = (passagemAlemanha+passagemItalia+passagemPortugal);
     
-      System.out.println("\n O valor que deve ser pago pelo cliente é : " + pagar+"R$");
+      System.out.printf("\nAs %d pessoas pagarão um total de R$%.2f", passageiros, valortotal);
 
      scanner.close();
 
